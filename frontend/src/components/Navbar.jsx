@@ -111,7 +111,7 @@ const Navbar = () => {
       setIsLoading(true);
       const token = localStorage.getItem('token');
       
-      let response = await fetch('http://localhost:5003/questions-history', {
+      let response = await fetch('https://pakka.onrender.com/questions-history', {
         headers: {
           'Authorization': `Bearer ${token}`
         }

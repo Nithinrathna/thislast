@@ -42,7 +42,7 @@ os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 api_key = os.getenv("GEMINI_API_KEY", "AIzaSyBXpeJYp7AwLvJ42R2E4Uqz3jfOiTI6Cy0")
 
 # MongoDB setup with error handling
-mongo_uri = os.getenv("MONGO_URI", "mongodb+srv://nameisnithin4:McACLuM8idG5XKpt@cluster0.vpdhiop.mongodb.net/auth_db?retryWrites=true&w=majority&appName=Cluster0")
+mongo_uri = os.getenv("MONGO_URI", "mongodb+srv://nameisnithin4:fDr3ObDqNdVx8hE4@cluster.whgnxbn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster")
 db = None
 collection = None
 

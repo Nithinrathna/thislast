@@ -18,7 +18,7 @@ const Signup = () => {
     setError('');
 
     try {
-      const response = await fetch('https://pakka.onrender.com/signup', {
+      const response = await fetch('https://kanna-1.onrender.com/signup', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -177,6 +177,10 @@ def change_password(current_user):
     except Exception as e:
         print(f"Error changing password: {str(e)}")
         return jsonify({'error': 'Server error while changing password'}), 500
+    # other route definitions...
 
+@app.route("/health")
+def health():
+    return "OK", 200
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5004, debug=True)
